@@ -1,0 +1,1144 @@
+[
+  {
+    "constant": true,
+    "inputs": [{ "name": "_interfaceId", "type": "bytes4" }],
+    "name": "supportsInterface",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x01ffc9a7"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "name",
+    "outputs": [{ "name": "", "type": "string" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x06fdde03"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "getApproved",
+    "outputs": [{ "name": "", "type": "address" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x081812fc"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_to", "type": "address" },
+      { "name": "_tokenId", "type": "uint256" }
+    ],
+    "name": "approve",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x095ea7b3"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "totalSupply",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x18160ddd"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "InterfaceId_ERC165",
+    "outputs": [{ "name": "", "type": "bytes4" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x19fa8f50"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      { "name": "_operator", "type": "address" },
+      { "name": "_role", "type": "uint8" }
+    ],
+    "name": "checkRole",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x23a3ad72"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_from", "type": "address" },
+      { "name": "_to", "type": "address" },
+      { "name": "_tokenId", "type": "uint256" }
+    ],
+    "name": "transferFrom",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x23b872dd"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "totalPurchaseValueInWei",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x2bbd84e8"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      { "name": "_owner", "type": "address" },
+      { "name": "_index", "type": "uint256" }
+    ],
+    "name": "tokenOfOwnerByIndex",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x2f745c59"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "unpause",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x3f4ba83a"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_from", "type": "address" },
+      { "name": "_to", "type": "address" },
+      { "name": "_tokenId", "type": "uint256" }
+    ],
+    "name": "safeTransferFrom",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x42842e0e"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "totalNumberAvailable",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x42c7ea5f"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_operator", "type": "address" },
+      { "name": "_role", "type": "uint8" }
+    ],
+    "name": "addAddressToAccessControl",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x43923258"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "tokenBaseURI",
+    "outputs": [{ "name": "", "type": "string" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x4e99b800"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "exists",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x4f558e79"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_index", "type": "uint256" }],
+    "name": "tokenByIndex",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x4f6ccce7"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "paused",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x5c975abb"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "ownerOf",
+    "outputs": [{ "name": "", "type": "address" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x6352211e"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "koCommissionAccount",
+    "outputs": [{ "name": "", "type": "address" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x6e93dbdc"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_owner", "type": "address" }],
+    "name": "balanceOf",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x70a08231"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "renounceOwnership",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x715018a6"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "pause",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x8456cb59"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "owner",
+    "outputs": [{ "name": "", "type": "address" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x8da5cb5b"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "ROLE_MINTER",
+    "outputs": [{ "name": "", "type": "uint8" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x92afc33a"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      { "name": "_operator", "type": "address" },
+      { "name": "_role", "type": "uint8" }
+    ],
+    "name": "hasRole",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x95a8c58d"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "symbol",
+    "outputs": [{ "name": "", "type": "string" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x95d89b41"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_operator", "type": "address" },
+      { "name": "_role", "type": "uint8" }
+    ],
+    "name": "removeAddressFromAccessControl",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x975347b8"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "ROLE_UNDER_MINTER",
+    "outputs": [{ "name": "", "type": "uint8" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x985989d2"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "reclaimEther",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x9f727c27"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_to", "type": "address" },
+      { "name": "_approved", "type": "bool" }
+    ],
+    "name": "setApprovalForAll",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xa22cb465"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "highestEditionNumber",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xabf3260f"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_from", "type": "address" },
+      { "name": "_to", "type": "address" },
+      { "name": "_tokenId", "type": "uint256" },
+      { "name": "_data", "type": "bytes" }
+    ],
+    "name": "safeTransferFrom",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xb88d4fde"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "ROLE_KNOWN_ORIGIN",
+    "outputs": [{ "name": "", "type": "uint8" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xbe46b94c"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      { "name": "_owner", "type": "address" },
+      { "name": "_operator", "type": "address" }
+    ],
+    "name": "isApprovedForAll",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xe985e9c5"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "totalNumberMinted",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xf1ff3d4b"
+  },
+  {
+    "constant": false,
+    "inputs": [{ "name": "_newOwner", "type": "address" }],
+    "name": "transferOwnership",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xf2fde38b"
+  },
+  {
+    "inputs": [],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "constructor",
+    "signature": "constructor"
+  },
+  { "payable": false, "stateMutability": "nonpayable", "type": "fallback" },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "_tokenId", "type": "uint256" },
+      { "indexed": true, "name": "_editionNumber", "type": "uint256" },
+      { "indexed": true, "name": "_buyer", "type": "address" },
+      { "indexed": false, "name": "_priceInWei", "type": "uint256" }
+    ],
+    "name": "Purchase",
+    "type": "event",
+    "signature": "0x145e2ff612f82ecb64f13b28a0e2825f8fd3dba6d6fbbdec265aa58800014c3d"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "_tokenId", "type": "uint256" },
+      { "indexed": true, "name": "_editionNumber", "type": "uint256" },
+      { "indexed": true, "name": "_buyer", "type": "address" }
+    ],
+    "name": "Minted",
+    "type": "event",
+    "signature": "0x259eb7b480b3d449f506927269e4665c83c69e4cd797143eaa8f84632dc7a02b"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "_editionNumber", "type": "uint256" },
+      { "indexed": true, "name": "_editionData", "type": "bytes32" },
+      { "indexed": true, "name": "_editionType", "type": "uint256" }
+    ],
+    "name": "EditionCreated",
+    "type": "event",
+    "signature": "0xf702f09ce66e1a7f60e909cfb5b6400ce4967f4fd691158bd96066cb89c5c078"
+  },
+  {
+    "anonymous": false,
+    "inputs": [],
+    "name": "Pause",
+    "type": "event",
+    "signature": "0x6985a02210a168e66602d3235cb6db0e70f92b3ba4d376a33c0f3d9434bff625"
+  },
+  {
+    "anonymous": false,
+    "inputs": [],
+    "name": "Unpause",
+    "type": "event",
+    "signature": "0x7805862f689e2f13df9f062ff482ad3ad112aca9e0847911ed832e158c525b33"
+  },
+  {
+    "anonymous": false,
+    "inputs": [{ "indexed": true, "name": "previousOwner", "type": "address" }],
+    "name": "OwnershipRenounced",
+    "type": "event",
+    "signature": "0xf8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c64820"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "previousOwner", "type": "address" },
+      { "indexed": true, "name": "newOwner", "type": "address" }
+    ],
+    "name": "OwnershipTransferred",
+    "type": "event",
+    "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "operator", "type": "address" },
+      { "indexed": false, "name": "role", "type": "uint8" }
+    ],
+    "name": "RoleAdded",
+    "type": "event",
+    "signature": "0x0ed8a6a6a166243876472f7a8610b62c1a76c67911642d39ff34ead38105534f"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "operator", "type": "address" },
+      { "indexed": false, "name": "role", "type": "uint8" }
+    ],
+    "name": "RoleRemoved",
+    "type": "event",
+    "signature": "0x3824b64a1e23d936b458f4e31445c664d2bc9c14e842407917cbc100b0236a2f"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "_from", "type": "address" },
+      { "indexed": true, "name": "_to", "type": "address" },
+      { "indexed": true, "name": "_tokenId", "type": "uint256" }
+    ],
+    "name": "Transfer",
+    "type": "event",
+    "signature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "_owner", "type": "address" },
+      { "indexed": true, "name": "_approved", "type": "address" },
+      { "indexed": true, "name": "_tokenId", "type": "uint256" }
+    ],
+    "name": "Approval",
+    "type": "event",
+    "signature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "_owner", "type": "address" },
+      { "indexed": true, "name": "_operator", "type": "address" },
+      { "indexed": false, "name": "_approved", "type": "bool" }
+    ],
+    "name": "ApprovalForAll",
+    "type": "event",
+    "signature": "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_editionData", "type": "bytes32" },
+      { "name": "_editionType", "type": "uint256" },
+      { "name": "_startDate", "type": "uint256" },
+      { "name": "_endDate", "type": "uint256" },
+      { "name": "_artistAccount", "type": "address" },
+      { "name": "_artistCommission", "type": "uint256" },
+      { "name": "_priceInWei", "type": "uint256" },
+      { "name": "_tokenURI", "type": "string" },
+      { "name": "_totalAvailable", "type": "uint256" }
+    ],
+    "name": "createActiveEdition",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x8bbb594a"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_editionData", "type": "bytes32" },
+      { "name": "_editionType", "type": "uint256" },
+      { "name": "_startDate", "type": "uint256" },
+      { "name": "_endDate", "type": "uint256" },
+      { "name": "_artistAccount", "type": "address" },
+      { "name": "_artistCommission", "type": "uint256" },
+      { "name": "_priceInWei", "type": "uint256" },
+      { "name": "_tokenURI", "type": "string" },
+      { "name": "_totalAvailable", "type": "uint256" }
+    ],
+    "name": "createInactiveEdition",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xe65d19ca"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_editionData", "type": "bytes32" },
+      { "name": "_editionType", "type": "uint256" },
+      { "name": "_startDate", "type": "uint256" },
+      { "name": "_endDate", "type": "uint256" },
+      { "name": "_artistAccount", "type": "address" },
+      { "name": "_artistCommission", "type": "uint256" },
+      { "name": "_priceInWei", "type": "uint256" },
+      { "name": "_tokenURI", "type": "string" },
+      { "name": "_totalSupply", "type": "uint256" },
+      { "name": "_totalAvailable", "type": "uint256" }
+    ],
+    "name": "createActivePreMintedEdition",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xae8a8690"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_editionData", "type": "bytes32" },
+      { "name": "_editionType", "type": "uint256" },
+      { "name": "_startDate", "type": "uint256" },
+      { "name": "_endDate", "type": "uint256" },
+      { "name": "_artistAccount", "type": "address" },
+      { "name": "_artistCommission", "type": "uint256" },
+      { "name": "_priceInWei", "type": "uint256" },
+      { "name": "_tokenURI", "type": "string" },
+      { "name": "_totalSupply", "type": "uint256" },
+      { "name": "_totalAvailable", "type": "uint256" }
+    ],
+    "name": "createInactivePreMintedEdition",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x9cd77457"
+  },
+  {
+    "constant": false,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "purchase",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "function",
+    "signature": "0xefef39a1"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_to", "type": "address" },
+      { "name": "_editionNumber", "type": "uint256" }
+    ],
+    "name": "purchaseTo",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "function",
+    "signature": "0x891407c0"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_to", "type": "address" },
+      { "name": "_editionNumber", "type": "uint256" }
+    ],
+    "name": "mint",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x40c10f19"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_to", "type": "address" },
+      { "name": "_editionNumber", "type": "uint256" }
+    ],
+    "name": "underMint",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x7d55758f"
+  },
+  {
+    "constant": false,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "burn",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x42966c68"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_to", "type": "address" },
+      { "name": "_tokenIds", "type": "uint256[]" }
+    ],
+    "name": "batchTransfer",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xac3c9952"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_from", "type": "address" },
+      { "name": "_to", "type": "address" },
+      { "name": "_tokenIds", "type": "uint256[]" }
+    ],
+    "name": "batchTransferFrom",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xf3993d11"
+  },
+  {
+    "constant": false,
+    "inputs": [{ "name": "_newBaseURI", "type": "string" }],
+    "name": "updateTokenBaseURI",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x2295ee5b"
+  },
+  {
+    "constant": false,
+    "inputs": [{ "name": "_koCommissionAccount", "type": "address" }],
+    "name": "updateKoCommissionAccount",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x187d8803"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_uri", "type": "string" }
+    ],
+    "name": "updateEditionTokenURI",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x75dcb70a"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_priceInWei", "type": "uint256" }
+    ],
+    "name": "updatePriceInWei",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x7eb9f04a"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_rate", "type": "uint256" }
+    ],
+    "name": "updateArtistCommission",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x5091f881"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_artistAccount", "type": "address" }
+    ],
+    "name": "updateArtistsAccount",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xafa7a25f"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_editionType", "type": "uint256" }
+    ],
+    "name": "updateEditionType",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xd4f3d6b8"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_active", "type": "bool" }
+    ],
+    "name": "updateActive",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x04bb1e3d"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_totalSupply", "type": "uint256" }
+    ],
+    "name": "updateTotalSupply",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xf8b4ab7a"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_totalAvailable", "type": "uint256" }
+    ],
+    "name": "updateTotalAvailable",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xbdcdc0bc"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_startDate", "type": "uint256" }
+    ],
+    "name": "updateStartDate",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x328a2c2d"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_endDate", "type": "uint256" }
+    ],
+    "name": "updateEndDate",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xe6232ba1"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_rate", "type": "uint256" },
+      { "name": "_recipient", "type": "address" }
+    ],
+    "name": "updateOptionalCommission",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x97e851f6"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_tokenId", "type": "uint256" },
+      { "name": "_uri", "type": "string" }
+    ],
+    "name": "setTokenURI",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x162094c4"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "editionOfTokenId",
+    "outputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x824eec3b"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_type", "type": "uint256" }],
+    "name": "editionsOfType",
+    "outputs": [{ "name": "_editionNumbers", "type": "uint256[]" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xe7b8d977"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_artistsAccount", "type": "address" }],
+    "name": "artistsEditions",
+    "outputs": [{ "name": "_editionNumbers", "type": "uint256[]" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x6641179e"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "tokensOfEdition",
+    "outputs": [{ "name": "_tokenIds", "type": "uint256[]" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x7a85c02a"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_owner", "type": "address" }],
+    "name": "tokensOf",
+    "outputs": [{ "name": "_tokenIds", "type": "uint256[]" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x5a3f2672"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "editionExists",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xc2b2fb5e"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "editionOptionalCommission",
+    "outputs": [
+      { "name": "_rate", "type": "uint256" },
+      { "name": "_recipient", "type": "address" }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xde56a245"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "editionNumber", "type": "uint256" }],
+    "name": "detailsOfEdition",
+    "outputs": [
+      { "name": "_editionData", "type": "bytes32" },
+      { "name": "_editionType", "type": "uint256" },
+      { "name": "_startDate", "type": "uint256" },
+      { "name": "_endDate", "type": "uint256" },
+      { "name": "_artistAccount", "type": "address" },
+      { "name": "_artistCommission", "type": "uint256" },
+      { "name": "_priceInWei", "type": "uint256" },
+      { "name": "_tokenURI", "type": "string" },
+      { "name": "_totalSupply", "type": "uint256" },
+      { "name": "_totalAvailable", "type": "uint256" },
+      { "name": "_active", "type": "bool" }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x71c847b2"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "tokenData",
+    "outputs": [
+      { "name": "_editionNumber", "type": "uint256" },
+      { "name": "_editionType", "type": "uint256" },
+      { "name": "_editionData", "type": "bytes32" },
+      { "name": "_tokenURI", "type": "string" },
+      { "name": "_owner", "type": "address" }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xb4b5b48f"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "tokenURI",
+    "outputs": [{ "name": "", "type": "string" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xc87b56dd"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "tokenURISafe",
+    "outputs": [{ "name": "", "type": "string" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xfee7e35d"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "purchaseDatesToken",
+    "outputs": [
+      { "name": "_startDate", "type": "uint256" },
+      { "name": "_endDate", "type": "uint256" }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xb8f6c219"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_tokenId", "type": "uint256" }],
+    "name": "priceInWeiToken",
+    "outputs": [{ "name": "_priceInWei", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x15347380"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "editionData",
+    "outputs": [{ "name": "", "type": "bytes32" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x213d6771"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "editionType",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x593af56a"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "purchaseDatesEdition",
+    "outputs": [
+      { "name": "_startDate", "type": "uint256" },
+      { "name": "_endDate", "type": "uint256" }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x652edd41"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "artistCommission",
+    "outputs": [
+      { "name": "_artistAccount", "type": "address" },
+      { "name": "_artistCommission", "type": "uint256" }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x32fd8478"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "priceInWeiEdition",
+    "outputs": [{ "name": "_priceInWei", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x43bf63e8"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "tokenURIEdition",
+    "outputs": [{ "name": "", "type": "string" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x385df389"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "editionActive",
+    "outputs": [{ "name": "", "type": "bool" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xbbd1e1fc"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "totalRemaining",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xbc02844c"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "totalAvailableEdition",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0x6a028692"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_editionNumber", "type": "uint256" }],
+    "name": "totalSupplyEdition",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xb6f4df34"
+  }
+]
